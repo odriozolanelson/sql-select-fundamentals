@@ -9,7 +9,7 @@
 SELECT * FROM sales; -- usar el SELECT * tiene sentido cuando quieres concoer todas las columnas y datos que tiene una tabla. No tiene sentido cuando quiero determinadas columnas especificas.
 
 
--- Consulta 1: Exploración general de la tabla sales
+-- Consulta 2: Exploración general de la tabla sales
 SELECT customer_id, product_id, total_amount FROM sales;
 
 -- Consulta 3: Selección con alias en español para stakeholders
